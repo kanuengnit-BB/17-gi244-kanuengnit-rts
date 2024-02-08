@@ -12,7 +12,7 @@ public enum UnitState
     Die
 }
 
-[Serializable]
+[System.Serializable]
 public struct UnitCost
 {
     public int food;
@@ -70,6 +70,13 @@ public class Unit : MonoBehaviour
     
     public GameObject SelectionVisual { get { return selectionVisual; } }
     
+    [SerializeField] private UnitCost unitCost;
+    public UnitCost UnitCost { get { return unitCost; } }
+
+    //time for increasing progress 1% for this unit, less is faster
+    [SerializeField] private float unitWaitTime = 0.1f;
+    public float UnitWaitTime { get { return unitWaitTime; } }
+
     void Awake()
     {
         navAgent = GetComponent<NavMeshAgent>();
