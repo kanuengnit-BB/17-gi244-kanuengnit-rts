@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -9,6 +10,16 @@ public enum UnitState
     Move,
     Attack,
     Die
+}
+
+[Serializable]
+public struct UnitCost
+{
+    public int food;
+    public int wood;
+    public int gold;
+    public int stone;
+    
 }
 
 public class Unit : MonoBehaviour
