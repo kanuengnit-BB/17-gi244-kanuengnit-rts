@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Building : Structure
 {
-    [SerializeField] private Transform spawnPoint;
+     [SerializeField] private Transform spawnPoint;
     public Transform SpawnPoint { get { return spawnPoint; } }
     [SerializeField] private Transform rallyPoint;
     public Transform RallyPoint { get { return rallyPoint; } }
@@ -108,7 +108,5 @@ public class Building : Structure
         if (SelectionVisual != null)
             SelectionVisual.SetActive(flag);
     }
-
     
-
 }
