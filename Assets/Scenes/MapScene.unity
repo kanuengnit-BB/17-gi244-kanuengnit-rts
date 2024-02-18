@@ -1389,6 +1389,14 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5680383369530463768, guid: e9b854147be352148a558f448d17bd92, type: 3}
+      propertyPath: curHP
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 5680383369530463768, guid: e9b854147be352148a558f448d17bd92, type: 3}
+      propertyPath: maxHP
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 5680383369530463768, guid: e9b854147be352148a558f448d17bd92, type: 3}
       propertyPath: selectionVisual
       value: 
       objectReference: {fileID: 1622800689}
