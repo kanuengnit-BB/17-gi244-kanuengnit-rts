@@ -5,6 +5,7 @@ using UnityEngine;
 public class Building : Structure
 {
     [SerializeField] private List<Building> aliveBuildings = new List<Building>();
+    public GameObject[] UnitPrefabs { get { return unitPrefabs; } }
     public List<Building> AliveBuildings { get { return aliveBuildings; } }
     
     [SerializeField] private Transform spawnPoint;
@@ -20,6 +21,12 @@ public class Building : Structure
     [SerializeField] private int curUnitProgress = 0;
 
     [SerializeField] private float curUnitWaitTime = 0f;
+    [SerializeField] private bool isFunctional;
+    public bool IsFunctional
+    {
+        get { return isFunctional; }
+        set { isFunctional = value; }
+    }
     
     // Start is called before the first frame update
     void Start()
