@@ -148,25 +148,27 @@ MonoBehaviour:
   structureName: Headquarter
   structurePic: {fileID: 21300000, guid: 984da4c9a556c8f41982d82998e8425d, type: 3}
   curHP: 0
-  maxHP: 0
+  maxHP: 100
   faction: {fileID: 0}
   selectionVisual: {fileID: 3197885788932069371}
   structureCost:
-    food: 0
-    wood: 0
-    gold: 0
-    stone: 0
+    food: 20
+    wood: 20
+    gold: 20
+    stone: 20
   aliveBuildings: []
   spawnPoint: {fileID: 7234574310086627341}
   rallyPoint: {fileID: 152567701161035297}
   unitPrefabs:
   - {fileID: 1659822698518960, guid: f5e816460b35415429b2a8580cea3cc7, type: 3}
+  - {fileID: 102334, guid: 3e92f280d550d0c4f8a452b565baa5a7, type: 3}
+  - {fileID: 1659822698518960, guid: 6307a6e95ef42a2438bc63cb8f66aa36, type: 3}
   recruitList: []
   unitTimer: 0
   curUnitProgress: 0
   curUnitWaitTime: 0
   isFunctional: 0
-  isHQ: 0
+  isHQ: 1
   intoTheGround: 5
 --- !u!65 &8332124306119054531
 BoxCollider:
@@ -187,8 +189,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 20, y: 20, z: 22}
-  m_Center: {x: 0, y: 10, z: 0}
+  m_Size: {x: 23, y: 20, z: 22}
+  m_Center: {x: 1, y: 10, z: 0}
 --- !u!208 &7829163752432080834
 NavMeshObstacle:
   m_ObjectHideFlags: 0
@@ -1409,7 +1411,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4436750116724852628, guid: e08b4012a08a0114cac97a79624b9280, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.3
+      value: -0.1
       objectReference: {fileID: 0}
     - target: {fileID: 4436750116724852628, guid: e08b4012a08a0114cac97a79624b9280, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1449,7 +1451,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8485578278364565671, guid: e08b4012a08a0114cac97a79624b9280, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

@@ -299,7 +299,7 @@ MonoBehaviour:
   - {fileID: 2110650536335450948}
   - {fileID: 6244603260265185393}
   - {fileID: 5264347004189217365}
-  planeRdr: {fileID: 0}
+  planeRdr: {fileID: 6418211143803951453}
 --- !u!1001 &825346697865177030
 PrefabInstance:
   m_ObjectHideFlags: 0

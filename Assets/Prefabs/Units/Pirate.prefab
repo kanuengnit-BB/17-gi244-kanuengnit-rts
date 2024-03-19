@@ -213,7 +213,7 @@ Animator:
   m_Controller: {fileID: 9100000, guid: 5ff2b0488ee1c7347adee575e5e05dd0, type: 2}
   m_CullingMode: 1
   m_UpdateMode: 0
-  m_ApplyRootMotion: 1
+  m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
   m_WarningMessage: 
@@ -298,6 +298,8 @@ MonoBehaviour:
     gold: 0
     stone: 0
   unitWaitTime: 0.1
+  isBuilder: 0
+  builder: {fileID: 0}
 --- !u!114 &1907444174236838131
 MonoBehaviour:
   m_ObjectHideFlags: 0
