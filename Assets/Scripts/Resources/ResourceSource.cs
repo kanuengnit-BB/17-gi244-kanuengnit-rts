@@ -13,6 +13,7 @@ public enum ResourceType
 
 public class ResourceSource : MonoBehaviour
 {
+    
     [SerializeField] private string rsrcName;
     public string RsrcName { get { return rsrcName; } }
 
@@ -29,16 +30,21 @@ public class ResourceSource : MonoBehaviour
 
     [SerializeField] private GameObject selectionVisual;
     public GameObject SelectionVisual { get { return selectionVisual; } } 
+    
     //Selection Ring
     [SerializeField]
     private UnityEvent onRsrcQuantityChange;
     [SerializeField]
     private UnityEvent onInfoQuantityChange;
 
+    [SerializeField]
+    private GameObject[] woodTreePrefab;
+
+    
     // Start is called before the first frame update
     void Start()
     {
-        
+       
     }
 
     // Update is called once per frame
@@ -77,4 +83,5 @@ public class ResourceSource : MonoBehaviour
         if (SelectionVisual != null)
             SelectionVisual.SetActive(selected);
     }
+
 }
