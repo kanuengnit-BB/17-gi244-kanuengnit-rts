@@ -27,7 +27,8 @@ public class ResourceSource : MonoBehaviour
     public int Quantity { get { return quantity; } set { quantity = value; } }
 
     [SerializeField] private int maxQuantity;
-
+    public int MaxQuantity { get { return maxQuantity; } }
+        
     [SerializeField] private GameObject selectionVisual;
     public GameObject SelectionVisual { get { return selectionVisual; } } 
     
