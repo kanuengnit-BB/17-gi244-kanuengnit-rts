@@ -11,6 +11,7 @@ public enum UnitState
     Attack,
     MoveToBuild,
     BuildProgress,
+    Gather,
     Die
 }
 
