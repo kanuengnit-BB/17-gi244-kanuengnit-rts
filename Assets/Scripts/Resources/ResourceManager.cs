@@ -9,7 +9,13 @@ public class ResourceManager : MonoBehaviour
     private Transform woodTreeParent;
     [SerializeField]
     private ResourceSource[] resources;
+    public  ResourceSource[] Resources
+    {
+        get { return resources; }
+    }
+        
     public static ResourceManager instance;
+    
     void Awake()
     {
         instance = this;
@@ -30,4 +36,6 @@ public class ResourceManager : MonoBehaviour
     {
         resources = FindObjectsOfType<ResourceSource>();
     }
+    
+    
 }
