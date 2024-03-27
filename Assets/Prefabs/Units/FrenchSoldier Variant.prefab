@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &3673618968996142277
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1659822698518960, guid: f5e816460b35415429b2a8580cea3cc7, type: 3}
+      propertyPath: m_Name
+      value: FrenchSoldier Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 4092135953349824, guid: f5e816460b35415429b2a8580cea3cc7, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4092135953349824, guid: f5e816460b35415429b2a8580cea3cc7, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4092135953349824, guid: f5e816460b35415429b2a8580cea3cc7, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4092135953349824, guid: f5e816460b35415429b2a8580cea3cc7, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4092135953349824, guid: f5e816460b35415429b2a8580cea3cc7, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4092135953349824, guid: f5e816460b35415429b2a8580cea3cc7, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4092135953349824, guid: f5e816460b35415429b2a8580cea3cc7, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4092135953349824, guid: f5e816460b35415429b2a8580cea3cc7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4092135953349824, guid: f5e816460b35415429b2a8580cea3cc7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4092135953349824, guid: f5e816460b35415429b2a8580cea3cc7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 137121456150615704, guid: f5e816460b35415429b2a8580cea3cc7, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 68cc9bc1692dabf4596c958ffe06eae6, type: 2}
+    - target: {fileID: 359432946963056929, guid: f5e816460b35415429b2a8580cea3cc7, type: 3}
+      propertyPath: unitPic
+      value: 
+      objectReference: {fileID: 21300000, guid: 03ce1ec807af2894b9bf8a950dbb6bd8, type: 3}
+    - target: {fileID: 359432946963056929, guid: f5e816460b35415429b2a8580cea3cc7, type: 3}
+      propertyPath: unitName
+      value: Fr. Regular
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f5e816460b35415429b2a8580cea3cc7, type: 3}
