@@ -12,6 +12,10 @@ public class MainUI : MonoBehaviour
     {
         get { return selectionMaker; }
     }
+    
+    [SerializeField] private RectTransform selectionBox;
+    public RectTransform SelectionBox { get { return selectionBox; } }
+
 
     [SerializeField] private TextMeshProUGUI unitCountText;
     [SerializeField] private TextMeshProUGUI foodText;
