@@ -2221,6 +2221,10 @@ PrefabInstance:
       propertyPath: selectionVisual
       value: 
       objectReference: {fileID: 1223273674}
+    - target: {fileID: 6082709303167475708, guid: e9b854147be352148a558f448d17bd92, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4166,6 +4170,71 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 978833831}
   m_CullTransparentMesh: 1
+--- !u!1001 &997665921
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 523891765267375830, guid: e9b854147be352148a558f448d17bd92, type: 3}
+      propertyPath: m_Name
+      value: BlueHouse (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4145639095775624037, guid: e9b854147be352148a558f448d17bd92, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 46.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4145639095775624037, guid: e9b854147be352148a558f448d17bd92, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4145639095775624037, guid: e9b854147be352148a558f448d17bd92, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 27.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4145639095775624037, guid: e9b854147be352148a558f448d17bd92, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4145639095775624037, guid: e9b854147be352148a558f448d17bd92, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4145639095775624037, guid: e9b854147be352148a558f448d17bd92, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4145639095775624037, guid: e9b854147be352148a558f448d17bd92, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4145639095775624037, guid: e9b854147be352148a558f448d17bd92, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4145639095775624037, guid: e9b854147be352148a558f448d17bd92, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4145639095775624037, guid: e9b854147be352148a558f448d17bd92, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5680383369530463768, guid: e9b854147be352148a558f448d17bd92, type: 3}
+      propertyPath: curHP
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 5680383369530463768, guid: e9b854147be352148a558f448d17bd92, type: 3}
+      propertyPath: faction
+      value: 
+      objectReference: {fileID: 2089363304}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e9b854147be352148a558f448d17bd92, type: 3}
 --- !u!1 &1020031039
 GameObject:
   m_ObjectHideFlags: 0
@@ -6725,6 +6794,10 @@ PrefabInstance:
       propertyPath: aliveBuildings.Array.data[1]
       value: 
       objectReference: {fileID: 500364533}
+    - target: {fileID: 675025303877935256, guid: 516e8071eb70f374c9e1006032851550, type: 3}
+      propertyPath: aliveBuildings.Array.data[2]
+      value: 
+      objectReference: {fileID: 5982399852268259593, guid: 84ff4d281043fbb4a8f9fedf05ed1764, type: 3}
     - target: {fileID: 2801028871548093626, guid: 516e8071eb70f374c9e1006032851550, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -9614,3 +9687,4 @@ SceneRoots:
   - {fileID: 615612855}
   - {fileID: 1412657323}
   - {fileID: 52283394}
+  - {fileID: 997665921}

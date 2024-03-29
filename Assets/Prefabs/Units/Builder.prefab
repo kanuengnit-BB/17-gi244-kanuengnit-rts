@@ -4448,6 +4448,11 @@ MonoBehaviour:
   worker: {fileID: 0}
   pathUpdateRate: 1
   lastPathUpdateTime: 0
+  curEnemyUnitTarget: {fileID: 0}
+  curEnemyBuildingTarget: {fileID: 0}
+  attackRate: 1
+  lastAttackTime: 0
+  defendRange: 30
 --- !u!114 &196661973405589369
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4477,9 +4482,11 @@ MonoBehaviour:
   buildingList:
   - {fileID: 6233177067990992943, guid: 920caf5a1e283b141ae41644c1aedaf7, type: 3}
   - {fileID: 523891765267375830, guid: e9b854147be352148a558f448d17bd92, type: 3}
+  - {fileID: 8622869082694668309, guid: 84ff4d281043fbb4a8f9fedf05ed1764, type: 3}
   ghostBuildingList:
   - {fileID: 6233177067990992943, guid: 7af9648448207bf479c4e540519a9b59, type: 3}
   - {fileID: 523891765267375830, guid: ecbf58e3402323148871fadb7d745953, type: 3}
+  - {fileID: 8622869082694668309, guid: 078c462a8fe5b364a898538cfd0f5a93, type: 3}
   newBuilding: {fileID: 0}
   ghostBuilding: {fileID: 0}
   inProgressBuilding: {fileID: 0}
