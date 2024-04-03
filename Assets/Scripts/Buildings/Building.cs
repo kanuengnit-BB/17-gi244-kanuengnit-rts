@@ -29,10 +29,13 @@ public class Building : Structure
     }
 
     [SerializeField] private bool isHQ;
-    public bool IsHq
-    {
-        get { return isHQ; }
-    }
+    public bool IsHq { get { return isHQ; } }
+    
+    [SerializeField] private bool isHousing;
+    public bool IsHousing { get { return isHousing; } }
+    
+    [SerializeField] private bool isBarrack;
+    public bool IsBarrack { get { return isBarrack; } }
     
     [SerializeField] private float intoTheGround = 5f;
     public float IntoTheGround

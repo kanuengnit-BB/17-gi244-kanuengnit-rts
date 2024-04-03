@@ -160,8 +160,6 @@ MonoBehaviour:
   spawnPoint: {fileID: 7234574310086627341}
   rallyPoint: {fileID: 152567701161035297}
   unitPrefabs:
-  - {fileID: 1659822698518960, guid: f5e816460b35415429b2a8580cea3cc7, type: 3}
-  - {fileID: 102334, guid: 3e92f280d550d0c4f8a452b565baa5a7, type: 3}
   - {fileID: 1659822698518960, guid: 6307a6e95ef42a2438bc63cb8f66aa36, type: 3}
   recruitList: []
   unitTimer: 0
@@ -169,6 +167,8 @@ MonoBehaviour:
   curUnitWaitTime: 0
   isFunctional: 0
   isHQ: 1
+  isHousing: 0
+  isBarrack: 0
   intoTheGround: 5
 --- !u!65 &8332124306119054531
 BoxCollider:
@@ -1411,7 +1411,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4436750116724852628, guid: e08b4012a08a0114cac97a79624b9280, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.1
+      value: 0.2
       objectReference: {fileID: 0}
     - target: {fileID: 4436750116724852628, guid: e08b4012a08a0114cac97a79624b9280, type: 3}
       propertyPath: m_LocalPosition.z
