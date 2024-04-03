@@ -4422,7 +4422,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 99795d059606de245b6940582270667b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  id: 0
+  id: 1
   unitName: Brit. Regular
   unitPic: {fileID: 21300000, guid: 76256a4d3ab1e0345ad5e851af33f6ef, type: 3}
   curHP: 100
@@ -4449,6 +4449,7 @@ MonoBehaviour:
   pathUpdateRate: 1
   lastPathUpdateTime: 0
   curEnemyUnitTarget: {fileID: 0}
+  curEnemyBuildingTarget: {fileID: 0}
   attackRate: 1
   lastAttackTime: 0
   defendRange: 30
