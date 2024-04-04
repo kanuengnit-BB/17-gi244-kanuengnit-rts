@@ -66,7 +66,7 @@ public class Faction : MonoBehaviour
     
     void Start()
     {
-        
+        UpdateHousingLimit();
     }
 
    
@@ -138,6 +138,9 @@ public class Faction : MonoBehaviour
     {
         foreach (Building b in aliveBuildings)
         {
+            if (b == null)
+                continue;
+            
             if (b.IsHq)
                 return b.SpawnPoint.position;
         }
@@ -222,6 +225,7 @@ public class Faction : MonoBehaviour
         else if (unitLimit < 0)
             unitLimit = 0;
 
+        if(this == GameManager.instance.MyFaction)
         MainUI.instance.UpdateAllResource(this);
     }
     
