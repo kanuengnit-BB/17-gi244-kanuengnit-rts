@@ -12,7 +12,7 @@ public class GameManager : MonoBehaviour
 
     //All factions in this game (2 factions for now)
     [SerializeField] private Faction[] factions;
-
+    public Faction[] Factions { get { return factions; } }
     public static GameManager instance;
 
     void Awake()
@@ -52,7 +52,6 @@ public class GameManager : MonoBehaviour
                 enemyFaction = f;
 
                 f.gameObject.AddComponent<FactionAI>(); //Routine AI
-
                 f.gameObject.AddComponent<AIController>(); //controller to choose among AI specific commands
                 f.gameObject.AddComponent<AISupport>();
                 f.gameObject.AddComponent<AIDoNothing>();

@@ -287,7 +287,7 @@ MonoBehaviour:
   minWpnDamage: 0
   maxWpnDamage: 5
   armour: 10
-  visualRange: 30
+  visualRange: 60
   weaponRange: 35
   state: 0
   faction: {fileID: 0}
@@ -300,6 +300,15 @@ MonoBehaviour:
   unitWaitTime: 0.1
   isBuilder: 0
   builder: {fileID: 0}
+  isWorker: 0
+  worker: {fileID: 0}
+  pathUpdateRate: 1
+  lastPathUpdateTime: 0
+  curEnemyUnitTarget: {fileID: 0}
+  curEnemyBuildingTarget: {fileID: 0}
+  attackRate: 1
+  lastAttackTime: 0
+  defendRange: 30
 --- !u!114 &1907444174236838131
 MonoBehaviour:
   m_ObjectHideFlags: 0
