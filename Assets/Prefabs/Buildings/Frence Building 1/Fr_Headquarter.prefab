@@ -107,6 +107,7 @@ GameObject:
   - component: {fileID: 8332124306119054531}
   - component: {fileID: 7829163752432080834}
   - component: {fileID: 7619807261169727199}
+  - component: {fileID: 1099314918868465777}
   m_Layer: 7
   m_Name: Fr_Headquarter
   m_TagString: Building
@@ -234,6 +235,18 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 126
   m_CollisionDetection: 0
+--- !u!114 &1099314918868465777
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6233177067990992943}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 35ae2b743fab2e5419e3181841e52d46, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &7880341923074447441
 GameObject:
   m_ObjectHideFlags: 0

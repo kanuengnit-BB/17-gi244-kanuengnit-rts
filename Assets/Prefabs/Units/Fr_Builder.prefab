@@ -4305,6 +4305,8 @@ GameObject:
   - component: {fileID: 196661973405589369}
   - component: {fileID: 5803486609069298493}
   - component: {fileID: 1427689628194187148}
+  - component: {fileID: -3684822250857734260}
+  - component: {fileID: 9116110324787096762}
   m_Layer: 6
   m_Name: Fr_Builder
   m_TagString: Unit
@@ -4510,6 +4512,30 @@ MonoBehaviour:
   amountCarry: 0
   maxCarry: 25
   carryType: 0
+--- !u!114 &-3684822250857734260
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1659822698518960}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 473f0dd2f452e584ea67f1724feea874, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &9116110324787096762
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1659822698518960}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 35ae2b743fab2e5419e3181841e52d46, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1685525561228416
 GameObject:
   m_ObjectHideFlags: 0
