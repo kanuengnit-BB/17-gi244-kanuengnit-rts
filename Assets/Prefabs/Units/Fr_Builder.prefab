@@ -4431,7 +4431,7 @@ MonoBehaviour:
   maxHP: 100
   moveSpeed: 5
   minWpnDamage: 0
-  maxWpnDamage: 12
+  maxWpnDamage: 0
   armour: 1
   visualRange: 60
   weaponRange: 15
@@ -4482,15 +4482,15 @@ MonoBehaviour:
   toBuild: 0
   showGhost: 0
   buildingList:
-  - {fileID: 6233177067990992943, guid: 920caf5a1e283b141ae41644c1aedaf7, type: 3}
-  - {fileID: 523891765267375830, guid: e9b854147be352148a558f448d17bd92, type: 3}
-  - {fileID: 8622869082694668309, guid: 84ff4d281043fbb4a8f9fedf05ed1764, type: 3}
-  - {fileID: 523891765267375830, guid: 3036bb33d620fb646b36135f9f277890, type: 3}
+  - {fileID: 6233177067990992943, guid: 0e375ed3073d20f4fbaaa3795538e81d, type: 3}
+  - {fileID: 523891765267375830, guid: 6024b484f18f5d144a52ee67f5c993ea, type: 3}
+  - {fileID: 8622869082694668309, guid: 8680556be975ce144994e635aaf3dfd8, type: 3}
+  - {fileID: 523891765267375830, guid: a0ae2661444f87b41b969ee61f73bde2, type: 3}
   ghostBuildingList:
-  - {fileID: 6233177067990992943, guid: 7af9648448207bf479c4e540519a9b59, type: 3}
-  - {fileID: 523891765267375830, guid: ecbf58e3402323148871fadb7d745953, type: 3}
-  - {fileID: 8622869082694668309, guid: 078c462a8fe5b364a898538cfd0f5a93, type: 3}
-  - {fileID: 523891765267375830, guid: 45474fe5a2f147e4aa700f14f0ffa1e4, type: 3}
+  - {fileID: 6233177067990992943, guid: b8cdbc55ce797d9428870f02a34914f0, type: 3}
+  - {fileID: 523891765267375830, guid: 87ee970912bee66438e3092b612ae00e, type: 3}
+  - {fileID: 8622869082694668309, guid: fc3ae4fa62cdf97419cf74094bf59e61, type: 3}
+  - {fileID: 523891765267375830, guid: b57be61bd1077194fbd3790d14e55222, type: 3}
   newBuilding: {fileID: 0}
   ghostBuilding: {fileID: 0}
   inProgressBuilding: {fileID: 0}
